@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Providers;
+namespace GRECO\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
