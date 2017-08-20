@@ -311,13 +311,7 @@ var rightControlSet = document.createElement('div');
 								  '<a href="' + locations.url + '" class="img-container" style="background-image:url(' + locations.img + ')">' + 
 									  '<span class="title">' + locations.title + '</span>' + 
 							      '</a>' +
-								  '<div class="price">$ ' + locations.info.price + '</div>' + 
-								  '<ul class="details">' +
-									  '<li class="room">' + locations.info.room + '</li>' +
-									  '<li class="bed-room">' + locations.info.bedRoom + '</li>' +
-									  '<li class="bath-room">' + locations.info.bathRoom + '</li>' +
-									  '<li class="size">' + locations.info.perimeter + '</li>' +
-								  '</ul>' + 
+								  '<div class="price" style="font-size: 22px;">Paper in Bin: ' + locations.info["Paper Recycled"] + '</div>' + 
 							  '</div>';
 
 						infobox = new InfoBox({
