@@ -6,30 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
     <title>GR-ECO</title>
 
-    <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}" />                            <!-- Bootstrap -->
-    <link rel="stylesheet" href="{{ asset('css/vendor/font-awesom/css/font-awesome.min.css') }}" />  <!-- Font Awesome -->
-    <link rel="stylesheet" href="{{ asset('css/vendor/mmenu/jquery.mmenu.all.css') }}" />          <!-- Menu Responsive -->
-    <link rel="stylesheet" href="{{ asset('css/vendor/animate-wow/animate.css') }}" />               <!-- Animation WOW -->
+    <link rel="stylesheet" href="{{ secure_asset('css/bootstrap.min.css') }}" />                            <!-- Bootstrap -->
+    <link rel="stylesheet" href="{{ secure_asset('css/vendor/font-awesom/css/font-awesome.min.css') }}" />  <!-- Font Awesome -->
+    <link rel="stylesheet" href="{{ secure_asset('css/vendor/mmenu/jquery.mmenu.all.css') }}" />          <!-- Menu Responsive -->
+    <link rel="stylesheet" href="{{ secure_asset('css/vendor/animate-wow/animate.css') }}" />               <!-- Animation WOW -->
 
-    <link rel="stylesheet" href="{{ asset('css/vendor/labelauty/labelauty.css') }}">               <!-- Checkbox form Style -->
-    <link rel="stylesheet" href="{{ asset('css/vendor/nouislider/nouislider.min.css') }}" />         <!-- Slider Price -->
-    <link rel="stylesheet" href="{{ asset('css/vendor/easydropdown/easydropdown.css') }}" />         <!-- Select form Style -->
-    <link rel="stylesheet" href="{{ asset('css/ui-spinner.css') }}">                               <!-- Spinner -->
+    <link rel="stylesheet" href="{{ secure_asset('css/vendor/labelauty/labelauty.css') }}">               <!-- Checkbox form Style -->
+    <link rel="stylesheet" href="{{ secure_asset('css/vendor/nouislider/nouislider.min.css') }}" />         <!-- Slider Price -->
+    <link rel="stylesheet" href="{{ secure_asset('css/vendor/easydropdown/easydropdown.css') }}" />         <!-- Select form Style -->
+    <link rel="stylesheet" href="{{ secure_asset('css/ui-spinner.css') }}">                               <!-- Spinner -->
 
-    <link rel="stylesheet" href="{{ asset('css/menu.css') }}">                                     <!-- Include Menu stylesheet -->
-    <link rel="stylesheet" href="{{ asset('css/custom.css') }}">                                   <!-- Custom Stylesheet -->
-    <link rel="stylesheet" href="{{ asset('css/media-query.css') }}">                              <!-- Media Query -->
+    <link rel="stylesheet" href="{{ secure_asset('css/menu.css') }}">                                     <!-- Include Menu stylesheet -->
+    <link rel="stylesheet" href="{{ secure_asset('css/custom.css') }}">                                   <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="{{ secure_asset('css/media-query.css') }}">                              <!-- Media Query -->
 
     <!-- Use Iconifyer to generate all the favicons and touch icons you need: http://iconifier.net -->
-    <link rel="shortcut icon" href="{{ asset('images/favicon/favicon.ico') }}" type="image/x-icon" />
-    <link rel="apple-touch-icon" href="{{ asset('images/favicon/apple-touch-icon.png') }}" />
-    <link rel="apple-touch-icon" sizes="57x57" href="{{ asset('images/favicon/apple-touch-icon-57x57.png') }}" />
-    <link rel="apple-touch-icon" sizes="72x72" href="{{ asset('images/favicon/apple-touch-icon-72x72.png') }}" />
-    <link rel="apple-touch-icon" sizes="76x76" href="{{ asset('images/favicon/apple-touch-icon-76x76.png') }}" />
-    <link rel="apple-touch-icon" sizes="114x114" href="{{ asset('images/favicon/apple-touch-icon-114x114.png') }}" />
-    <link rel="apple-touch-icon" sizes="120x120" href="{{ asset('images/favicon/apple-touch-icon-120x120.png') }}" />
-    <link rel="apple-touch-icon" sizes="144x144" href="{{ asset('images/favicon/apple-touch-icon-144x144.png') }}" />
-    <link rel="apple-touch-icon" sizes="152x152" href="{{ asset('images/favicon/apple-touch-icon-152x152.png') }}" />
+    <link rel="shortcut icon" href="{{ secure_asset('images/favicon/favicon.ico') }}" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="{{ secure_asset('images/favicon/apple-touch-icon.png') }}" />
+    <link rel="apple-touch-icon" sizes="57x57" href="{{ secure_asset('images/favicon/apple-touch-icon-57x57.png') }}" />
+    <link rel="apple-touch-icon" sizes="72x72" href="{{ secure_asset('images/favicon/apple-touch-icon-72x72.png') }}" />
+    <link rel="apple-touch-icon" sizes="76x76" href="{{ secure_asset('images/favicon/apple-touch-icon-76x76.png') }}" />
+    <link rel="apple-touch-icon" sizes="114x114" href="{{ secure_asset('images/favicon/apple-touch-icon-114x114.png') }}" />
+    <link rel="apple-touch-icon" sizes="120x120" href="{{ secure_asset('images/favicon/apple-touch-icon-120x120.png') }}" />
+    <link rel="apple-touch-icon" sizes="144x144" href="{{ secure_asset('images/favicon/apple-touch-icon-144x144.png') }}" />
+    <link rel="apple-touch-icon" sizes="152x152" href="{{ secure_asset('images/favicon/apple-touch-icon-152x152.png') }}" />
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -38,7 +38,7 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    <script src="{{ asset('script/modernizr.min.js') }}"></script> <!-- Modernizr -->
+    <script src="{{ secure_asset('script/modernizr.min.js') }}"></script> <!-- Modernizr -->
 
     @yield('stylesheets')
 </head>
@@ -186,26 +186,26 @@
     </div><!-- /.modal -->
 </div><!-- /#page-container -->
 
-<script	src="{{ asset('script/jquery.min.js') }}"></script>		<!-- jQuery	(necessary for Bootstrap's JavaScript plugins) -->
-<script	src="{{ asset('script/jquery-ui.min.js') }}"></script>		<!-- jQuery	UI is a	curated	set	of user	interface interactions,	effects, widgets, and themes -->
-<script	src="{{ asset('script/bootstrap.min.js') }}"></script>		<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script	src="{{ secure_asset('script/jquery.min.js') }}"></script>		<!-- jQuery	(necessary for Bootstrap's JavaScript plugins) -->
+<script	src="{{ secure_asset('script/jquery-ui.min.js') }}"></script>		<!-- jQuery	UI is a	curated	set	of user	interface interactions,	effects, widgets, and themes -->
+<script	src="{{ secure_asset('script/bootstrap.min.js') }}"></script>		<!-- Include all compiled plugins (below), or include individual files as needed -->
 
-<script	src="{{ asset('script/vendor/mmenu/mmenu.min.all.js') }}"></script>					<!-- Menu Responsive -->
-<script	src="{{ asset('script/vendor/animation-wow/wow.min.js') }}"></script>					<!-- Animate Script	-->
-<script src="{{ asset('script/vendor/labelauty/labelauty.min.js') }}"></script>					<!-- Checkbox Script -->
-<script	src="{{ asset('script/vendor/parallax/parallax.min.js') }}"></script>						<!-- Parallax Script -->
-<script	src="{{ asset('script/vendor/images-fill/imagesloaded.min.js') }}"></script>			<!-- Loaded	image with ImageFill -->
-<script src="{{ asset('script/vendor/images-fill/imagefill.min.js') }}"></script>					<!-- ImageFill Script -->
-<script	src="{{ asset('script/vendor/easydropdown/jquery.easydropdown.min.js') }}"></script>	<!-- Select	list Script	-->
-<script	src="{{ asset('script/vendor/noui-slider/nouislider.all.min.js') }}"></script>				<!-- Range Slider -->
-<script	src="{{ asset('script/vendor/carousel/responsiveCarousel.min.js') }}"></script>		<!-- Carousel Script -->
+<script	src="{{ secure_asset('script/vendor/mmenu/mmenu.min.all.js') }}"></script>					<!-- Menu Responsive -->
+<script	src="{{ secure_asset('script/vendor/animation-wow/wow.min.js') }}"></script>					<!-- Animate Script	-->
+<script src="{{ secure_asset('script/vendor/labelauty/labelauty.min.js') }}"></script>					<!-- Checkbox Script -->
+<script	src="{{ secure_asset('script/vendor/parallax/parallax.min.js') }}"></script>						<!-- Parallax Script -->
+<script	src="{{ secure_asset('script/vendor/images-fill/imagesloaded.min.js') }}"></script>			<!-- Loaded	image with ImageFill -->
+<script src="{{ secure_asset('script/vendor/images-fill/imagefill.min.js') }}"></script>					<!-- ImageFill Script -->
+<script	src="{{ secure_asset('script/vendor/easydropdown/jquery.easydropdown.min.js') }}"></script>	<!-- Select	list Script	-->
+<script	src="{{ secure_asset('script/vendor/noui-slider/nouislider.all.min.js') }}"></script>				<!-- Range Slider -->
+<script	src="{{ secure_asset('script/vendor/carousel/responsiveCarousel.min.js') }}"></script>		<!-- Carousel Script -->
 
 <script	src="http://maps.google.com/maps/api/js?key=AIzaSyDSW_4FbBdZg0cziJiniKZki4uF9bA8khU"></script>			<!-- Google Map -->
-<script	src="{{ asset('script/vendor/maps/infobox.js') }}"></script>							<!-- InfoBox extends the Google Maps JavaScript API V3 -->
-<script	src="{{ asset('script/vendor/maps/home-maps.js') }}"></script>							<!-- Custtom Map Color / Box Property -->
-<script	src="{{ asset('script/vendor/maps/markerclusterer.js') }}"></script>					<!-- The library creates and manages per-zoom-level clusters for large amounts of markers -->
+<script	src="{{ secure_asset('script/vendor/maps/infobox.js') }}"></script>							<!-- InfoBox extends the Google Maps JavaScript API V3 -->
+<script	src="{{ secure_asset('script/vendor/maps/home-maps.js') }}"></script>							<!-- Custtom Map Color / Box Property -->
+<script	src="{{ secure_asset('script/vendor/maps/markerclusterer.js') }}"></script>					<!-- The library creates and manages per-zoom-level clusters for large amounts of markers -->
 
-<script	src="{{ asset('script/custom.js') }}"></script>		<!-- Custom	Script -->
+<script	src="{{ secure_asset('script/custom.js') }}"></script>		<!-- Custom	Script -->
 <script>
     /* CLOSE SEARCH BOX */
     setTimeout(function(){$('.botton-options').click()}, 4000);
